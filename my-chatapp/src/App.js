@@ -122,7 +122,7 @@ import io from 'socket.io-client';
 import './App.css';
 import Navbar from './components/Navbar'; // Import Navbar
 
-const socket = io('http://localhost:4000/'); 
+const socket = io('https://chat-application-omv4.vercel.app/'); 
 
 const App = () => {
   const [message, setMessage] = useState('');
